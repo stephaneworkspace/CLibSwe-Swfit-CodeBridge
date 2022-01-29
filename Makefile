@@ -15,7 +15,7 @@
 
 CFLAGS = -g -Wall -fPIC  	# for Linux and other gcc systems
 OP=$(CFLAGS)  
-CC=clang -arch x86_64 x86_64-apple-ios-simulator -target arm64_apple-ios
+CC=clang -arch x86_64 -target x86_64-apple-ios-simulator -target arm64_apple-ios
 
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
