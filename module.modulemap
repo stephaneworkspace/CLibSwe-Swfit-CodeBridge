@@ -1,0 +1,4 @@
+module libswe {
+    header "./Sources/libswe/libswe.h"
+    export *
+}
