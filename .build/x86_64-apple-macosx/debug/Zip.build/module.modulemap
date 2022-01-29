@@ -1,4 +1,0 @@
-module Zip {
-    header "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/Zip-Swift.h"
-    requires objc
-}

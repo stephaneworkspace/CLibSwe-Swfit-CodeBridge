@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/libswe.iml" filepath="$PROJECT_DIR$/.idea/libswe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/libswe2.iml" filepath="$PROJECT_DIR$/.idea/libswe2.iml" />
     </modules>
   </component>
 </project>
