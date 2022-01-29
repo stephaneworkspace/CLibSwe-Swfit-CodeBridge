@@ -1,1 +1,2 @@
-libswe.a
+Sources/libswe/libswe.a
+.build/
