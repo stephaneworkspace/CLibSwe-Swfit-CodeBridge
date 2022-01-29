@@ -1,0 +1,5 @@
+module CGetFactorial {
+    header "Bridging-Header.h"
+    link "libswe"
+    export *
+}

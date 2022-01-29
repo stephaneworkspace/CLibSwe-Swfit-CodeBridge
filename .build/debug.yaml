@@ -1,0 +1,113 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "libswe-debug.module": ["<libswe-debug.module>"]
+  "main": ["<libswe-debug.module>"]
+  "test": ["<libswe-debug.module>"]
+default: "main"
+nodes:
+  "/Users/stephane/Code/AC/Package/libswe/Sources/libswe/":
+    is-directory-structure: true
+commands:
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swecl.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.o"]
+    description: "Compiling libswe swecl.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swecl.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swedate.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.o"]
+    description: "Compiling libswe swedate.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swedate.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swehel.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.o"]
+    description: "Compiling libswe swehel.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swehel.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swehouse.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.o"]
+    description: "Compiling libswe swehouse.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swehouse.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swejpl.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.o"]
+    description: "Compiling libswe swejpl.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swejpl.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swemmoon.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.o"]
+    description: "Compiling libswe swemmoon.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swemmoon.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swemplan.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.o"]
+    description: "Compiling libswe swemplan.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swemplan.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swepcalc.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.o"]
+    description: "Compiling libswe swepcalc.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swepcalc.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swepdate.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.o"]
+    description: "Compiling libswe swepdate.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swepdate.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/sweph.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.o"]
+    description: "Compiling libswe sweph.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/sweph.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.d"
+
+  "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.o":
+    tool: clang
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swephlib.c"]
+    outputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.o"]
+    description: "Compiling libswe swephlib.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libswe","-I","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/include","-fmodules-cache-path=/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.d","-c","/Users/stephane/Code/AC/Package/libswe/Sources/libswe/swephlib.c","-o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.o"]
+    deps: "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.d"
+
+  "<libswe-debug.module>":
+    tool: phony
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swecl.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swedate.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehel.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swehouse.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swejpl.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemmoon.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swemplan.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepcalc.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swepdate.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/sweph.c.o","/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/libswe.build/swephlib.c.o"]
+    outputs: ["<libswe-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/stephane/Code/AC/Package/libswe/Sources/libswe/","/Users/stephane/Code/AC/Package/libswe/Package.swift","/Users/stephane/Code/AC/Package/libswe/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

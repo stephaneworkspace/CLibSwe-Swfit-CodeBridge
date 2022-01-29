@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/exec_swift.build/master.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/exec-swift/run.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/exec_swift.build/run.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/exec_swift.build/run.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/exec_swift.build/run~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/exec_swift.build/run.swiftdeps"
+  }
+}

@@ -1,0 +1,4 @@
+module swift {
+    header "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/swift-Swift.h"
+    requires objc
+}

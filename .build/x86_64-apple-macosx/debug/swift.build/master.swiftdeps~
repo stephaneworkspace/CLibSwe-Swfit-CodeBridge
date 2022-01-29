@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1642528248, 322954177]
+build_end_time: [1642528248, 744298934]
+inputs:
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe.swift": !private [1642523026, 602233886]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe02.swift": !private [1642527855, 560024976]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe03.swift": !private [1642520151, 131852149]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe07.swift": !private [1642524375, 436236858]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe08.swift": !private [1642523728, 79876899]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe14.swift": !private [1642522909, 499881029]
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe17.swift": !private [1642522059, 483439922]

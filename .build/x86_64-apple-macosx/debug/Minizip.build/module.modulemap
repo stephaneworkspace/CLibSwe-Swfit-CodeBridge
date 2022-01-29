@@ -1,0 +1,4 @@
+module Minizip {
+    umbrella header "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/minizip/include/Minizip.h"
+    export *
+}

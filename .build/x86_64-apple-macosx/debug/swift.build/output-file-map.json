@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/master.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe02.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe02.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe02.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe02~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe02.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe03.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe03.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe03.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe03~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe03.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe07.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe07.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe07.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe07~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe07.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe08.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe08.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe08.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe08~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe08.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe14.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe14.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe14.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe14~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe14.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/Sources/swift/Swe17.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe17.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe17.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe17~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/swift.build/Swe17.swiftdeps"
+  }
+}

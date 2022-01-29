@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/master.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/QuickZip.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/QuickZip.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/QuickZip.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/QuickZip~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/QuickZip.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/Zip.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/Zip.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/Zip.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/Zip~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/Zip.swiftdeps"
+  },
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/ZipUtilities.swift": {
+    "dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/ZipUtilities.d",
+    "object": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/ZipUtilities.swift.o",
+    "swiftmodule": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/ZipUtilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/stephane/Code/AC/Package/libswe/.build/x86_64-apple-macosx/debug/Zip.build/ZipUtilities.swiftdeps"
+  }
+}

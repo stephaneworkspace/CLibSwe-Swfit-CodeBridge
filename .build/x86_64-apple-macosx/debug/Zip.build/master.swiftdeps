@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "ccb944e6591660fb33f1c68c633a06911f3f25a771fb83c369e694ca8d767828"
+build_start_time: [1642529584, 89860916]
+build_end_time: [1642529585, 151321887]
+inputs:
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/QuickZip.swift": [1642528825, 846892833]
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/Zip.swift": [1642528825, 847335815]
+  "/Users/stephane/Code/AC/Package/libswe/.build/checkouts/Zip-1/Zip/ZipUtilities.swift": [1642528825, 847527027]

@@ -1,0 +1,1 @@
+{"object": {"artifacts": [], "dependencies": [{"basedOn": null, "packageRef": {"identity": "zip-1", "kind": "remote", "location": "https://github.com/stephaneworkspace/Zip-1", "name": "Zip"}, "state": {"checkoutState": {"branch": null, "revision": "bd19d974e8a38cc8d3a88c90c8a107386c3b8ccf", "version": "2.1.1"}, "name": "checkout"}, "subpath": "Zip-1"}]}, "version": 4}
